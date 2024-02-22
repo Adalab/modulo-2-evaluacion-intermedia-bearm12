@@ -30,8 +30,8 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .button {
-    width: 70px;
-    padding: 5px 0;
+    /* width: 70px; */
+    padding: 5px 10px;
     background-color: rgb(28, 202, 194);
     border: none;
     color: white;
