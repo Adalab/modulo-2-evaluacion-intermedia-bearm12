@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title {
+    margin: 5px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px; 
+}
+
+.number-input {
+    min-width: 200px;
+    width: 40%;
+    padding: 10px;
+    background-color: rgb(209, 209, 209);
+    border: none;
+    border-radius: 5px;
+}
+
+.button {
+    width: 70px;
+    padding: 5px 0;
+    background-color: rgb(28, 202, 194);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.clue {
+    border: 3px solid rgb(161, 161, 161);
+    padding: 5px;
+    margin: 5px 10px;
+}
