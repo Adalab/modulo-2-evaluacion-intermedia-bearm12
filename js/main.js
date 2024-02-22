@@ -26,14 +26,19 @@ function checkNumber () {
     }
 }
 
-function counter () {
 
+let i = 0
+
+function counter () {
+    i++;
+    counterMessage.innerHTML = `Número de intentos: ${i}`;
 }
 
 function handleClick(event) {
     event.preventDefault();
     
-    checkNumber()
+    checkNumber();
+    counter();
 }
 
 button.addEventListener('click', handleClick)
