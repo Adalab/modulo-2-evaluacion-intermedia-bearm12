@@ -10,7 +10,7 @@ function getRandomNumber(max) {
 }
 
 const randomNumber = getRandomNumber(100);
-console.log(`Mi número aleatorio es ${randomNumber}`);
+
 
 function checkNumber () {
     const numberValue = numberInput.value;
